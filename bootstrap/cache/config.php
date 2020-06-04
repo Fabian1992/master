@@ -179,7 +179,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => '/home/usuario/workspace/erp-tabler/storage/framework/cache/data',
+        'path' => '/home/usuario/workspace/master/storage/framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -329,12 +329,12 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => '/home/usuario/workspace/erp-tabler/storage/app',
+        'root' => '/home/usuario/workspace/master/storage/app',
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => '/home/usuario/workspace/erp-tabler/storage/app/public',
+        'root' => '/home/usuario/workspace/master/storage/app/public',
         'url' => 'http://localhost/storage',
         'visibility' => 'public',
       ),
@@ -378,8 +378,8 @@
       'uppercase' => true,
       'fonts' => 
       array (
-        0 => '/home/usuario/workspace/erp-tabler/config/laravolt/../fonts/OpenSans-Bold.ttf',
-        1 => '/home/usuario/workspace/erp-tabler/config/laravolt/../fonts/rockwell.ttf',
+        0 => '/home/usuario/workspace/master/config/laravolt/../fonts/OpenSans-Bold.ttf',
+        1 => '/home/usuario/workspace/master/config/laravolt/../fonts/rockwell.ttf',
       ),
       'foregrounds' => 
       array (
@@ -511,13 +511,13 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => '/home/usuario/workspace/erp-tabler/storage/logs/laravel.log',
+        'path' => '/home/usuario/workspace/master/storage/logs/laravel.log',
         'level' => 'debug',
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => '/home/usuario/workspace/erp-tabler/storage/logs/laravel.log',
+        'path' => '/home/usuario/workspace/master/storage/logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
       ),
@@ -567,7 +567,7 @@
       ),
       'emergency' => 
       array (
-        'path' => '/home/usuario/workspace/erp-tabler/storage/logs/laravel.log',
+        'path' => '/home/usuario/workspace/master/storage/logs/laravel.log',
       ),
     ),
   ),
@@ -590,7 +590,7 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => '/home/usuario/workspace/erp-tabler/resources/views/vendor/mail',
+        0 => '/home/usuario/workspace/master/resources/views/vendor/mail',
       ),
     ),
     'log_channel' => NULL,
@@ -601,7 +601,7 @@
     'stubs' => 
     array (
       'enabled' => false,
-      'path' => '/home/usuario/workspace/erp-tabler/vendor/nwidart/laravel-modules/src/Commands/stubs',
+      'path' => '/home/usuario/workspace/master/vendor/nwidart/laravel-modules/src/Commands/stubs',
       'files' => 
       array (
         'routes/web' => 'Routes/web.php',
@@ -665,9 +665,9 @@
     ),
     'paths' => 
     array (
-      'modules' => '/home/usuario/workspace/erp-tabler/Modules',
-      'assets' => '/home/usuario/workspace/erp-tabler/public/modules',
-      'migration' => '/home/usuario/workspace/erp-tabler/database/migrations',
+      'modules' => '/home/usuario/workspace/master/Modules',
+      'assets' => '/home/usuario/workspace/master/public/modules',
+      'migration' => '/home/usuario/workspace/master/database/migrations',
       'generator' => 
       array (
         'config' => 
@@ -802,7 +802,7 @@
       'enabled' => false,
       'paths' => 
       array (
-        0 => '/home/usuario/workspace/erp-tabler/vendor/*/*',
+        0 => '/home/usuario/workspace/master/vendor/*/*',
       ),
     ),
     'composer' => 
@@ -830,7 +830,7 @@
       'file' => 
       array (
         'class' => 'Nwidart\\Modules\\Activators\\FileActivator',
-        'statuses-file' => '/home/usuario/workspace/erp-tabler/modules_statuses.json',
+        'statuses-file' => '/home/usuario/workspace/master/modules_statuses.json',
         'cache-key' => 'activator.installed',
         'cache-lifetime' => 604800,
       ),
@@ -973,7 +973,7 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => '/home/usuario/workspace/erp-tabler/storage/framework/sessions',
+    'files' => '/home/usuario/workspace/master/storage/framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -993,9 +993,9 @@
   array (
     'paths' => 
     array (
-      0 => '/home/usuario/workspace/erp-tabler/resources/views',
+      0 => '/home/usuario/workspace/master/resources/views',
     ),
-    'compiled' => '/home/usuario/workspace/erp-tabler/storage/framework/views',
+    'compiled' => '/home/usuario/workspace/master/storage/framework/views',
   ),
   'flare' => 
   array (
@@ -1050,7 +1050,7 @@
   'breadcrumbs' => 
   array (
     'view' => 'breadcrumbs::bootstrap4',
-    'files' => '/home/usuario/workspace/erp-tabler/routes/breadcrumbs.php',
+    'files' => '/home/usuario/workspace/master/routes/breadcrumbs.php',
     'unnamed-route-exception' => true,
     'missing-route-bound-breadcrumb-exception' => true,
     'invalid-named-breadcrumb-exception' => true,
