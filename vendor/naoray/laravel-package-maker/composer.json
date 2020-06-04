@@ -1,0 +1,45 @@
+{
+  "name": "naoray/laravel-package-maker",
+  "description": "Get a package skeleton and all other `make` commands from laravel base for package development.",
+  "type": "package",
+  "license": "MIT",
+  "keywords": [
+    "laravel"
+  ],
+  "authors": [
+    {
+      "name": "Krishan Koenig",
+      "email": "krishan.koenig@googlemail.com"
+    }
+  ],
+  "require": {
+    "illuminate/support": "^6.0",
+    "illuminate/console": "^6.0",
+    "illuminate/filesystem": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Naoray\\LaravelPackageMaker\\": "./src"
+    }
+  },
+  "minimum-stability": "dev",
+  "autoload-dev": {
+    "psr-4": {
+      "Naoray\\LaravelPackageMaker\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Naoray\\LaravelPackageMaker\\LaravelPackageMakerServiceProvider"
+      ]
+    }
+  },
+  "require-dev": {
+    "orchestra/testbench": "^4.0",
+    "mockery/mockery": "^1.2"
+  }
+}
